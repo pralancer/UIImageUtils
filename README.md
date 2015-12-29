@@ -1,6 +1,8 @@
 # UIImageUtils
 Set of UIImage extensions to create some modified and shadow images in Swift. This is an extension to the UIImage class to create some images that are rounded and has a inner shadow and a border based on the params you pass to the functions.  It also returns a inner shadowed image of the original image as well.  You use the functions of this extension on a instance of UIImage.
 
+## Functions
+
 ```sh
 func roundedImageWithRadius(radius:CGFloat, withShadow:Bool=true, shadowColor:UIColor=UIColor.blackColor(), borderThickness:CGFloat=0.0, borderColor:UIColor = UIColor.whiteColor()) -> UIImage!
 ```
@@ -15,6 +17,8 @@ This is a convenience method to get the center area of the image as a circular i
 func innerShadowedImage() -> UIImage!
 ```
 This function returns the original image but with a innner shadow. Default params are used internally.
+
+## Sample 
 
 Sample Image created using this extension. The top image is the original image. The second image below it is the roundedImage and the last image is the innerShadowedImage.
 
