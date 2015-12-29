@@ -15,3 +15,7 @@ This is a convenience method to get the center area of the image as a circular i
 func innerShadowedImage() -> UIImage!
 ```
 This function returns the original image but with a innner shadow. Default params are used internally.
+
+Sample Image created using this extension. The top image is the original image. The second image below it is the roundedImage and the last image is the innerShadowedImage.
+
+![sample](https://cloud.githubusercontent.com/assets/15045249/12038783/dfb1af58-ae80-11e5-8e95-d7ebe795c3cc.png)
